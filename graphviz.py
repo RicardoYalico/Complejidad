@@ -1,3 +1,4 @@
+import graphviz as gv
 def drawUF(a):
     dot = gv.Digraph(comment='Nada')
     n = len(a)
